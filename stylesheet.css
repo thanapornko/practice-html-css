@@ -1,0 +1,234 @@
+/* global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: aqua; */
+    padding: 16px;
+}
+nav a {
+    padding: 16px;
+    font-size: 18px;
+    color: black;
+}
+nav a:hover {
+    color: rgb(9, 184, 207);
+}
+nav a:active {
+    color: rgb(14, 199, 137);
+}
+
+/* profile */
+.profile {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(https://images.pexels.com/photos/1420701/pexels-photo-1420701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.profileleft {
+    flex-direction: column;
+    width: 55%;  
+}
+.profileleft * {
+    padding-bottom: 16px;
+}
+.profilepicture {
+    padding-right: 36px;
+}
+.profilepic {
+    border-radius: 50%;
+}
+.profiledownload {
+    background-color: rgb(25, 233, 233);
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 8px;
+}
+.profiledownload:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+/* recent */
+.recentbox {
+    /* height: 55vh; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 32px;
+    padding-bottom: 48px;
+    background-color: rgb(197, 197, 197);
+}
+.recentheader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+.recentpost {
+    display: flex;
+    justify-content: space-between;
+}
+.recentleft {
+    width: 45%;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: white;
+}
+.recentright {
+    width: 45%;
+    border: 1px solid black;
+    padding: 8px;
+    background-color: white;
+}
+.recentleft * {
+    padding: 8px;
+}
+.recentright * {
+    padding: 8px;
+}
+
+/* feature */
+.feature {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+}
+.featurework {
+    padding-bottom: 16px;
+}
+.featurebox {
+    display: flex;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.featureimg {
+    margin-right: 16px;
+}
+.featuretext {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.featuretext * {
+    padding: 8px;
+}
+.featuresub {
+    display: flex;
+    align-items: center;
+}
+.featureyear {
+    background-color: brown;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.footericon img {
+    margin: 4px;
+}
+
+
+
+
+/* หน้า blog */
+
+/* blog */
+.bigblog {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 16px;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.blog * {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.blogyear {
+    display: flex;
+}
+.blogyear p {
+    padding-right: 24px;
+}
+
+
+
+/* หน้า work */
+.work {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 16px;
+}
+.workbox {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.worktext {
+    padding-left: 24px
+}
+.worktext p {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.worktext h2 {
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
+.workyear {
+    display: flex;
+}
+.workyearbutton {
+    background-color: aquamarine;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.worktext a:hover {
+    color: rgb(9, 184, 207);
+}
+
+
+
+/* หน้า work2 */
+.dashboard {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 3rem;
+}
+.dashyear {
+    display: flex;
+    align-items: center;
+}
+.dash {
+    background-color: aquamarine;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    line-height: 1rem;
+}
